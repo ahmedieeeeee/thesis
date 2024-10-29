@@ -16,7 +16,7 @@ header {
 }
 
 header .logo {
-    width: 150px;  /* Adjust this to your desired width */
+    width: 450px;  /* Adjust this to your desired width */
     height: auto;  /* This keeps the aspect ratio consistent */
     position: absolute;
     left: 40px;
