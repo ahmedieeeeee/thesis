@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Buying</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Buy Tickets</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login/Register</a>
+            <a href="vendor-registration.html">Vendor Registration</a>
+            <a href="vendor-info.html">Vendor Info</a>
+            <a href="media.html">Media</a>
+        </nav>
+    </header>
+    <section id="tickets">
+        <h2>Select Ticket</h2>
+        <form id="ticketForm">
+            <label for="ticketType">Ticket Type:</label>
+            <select id="ticketType" required>
+                <option value="regular">Regular - $10</option>
+                <option value="early-bird">Early Bird - $8</option>
+                <option value="bundle">Bundle (4 tickets) - $30</option>
+            </select>
+            <button type="submit">Purchase</button>
+        </form>
+    </section>
+</body>
+</html>
