@@ -61,17 +61,19 @@ footer p {
     margin: 0;
 }
 
-/* Homepage Background */
 #home-content {
     background-image: url('../images/food.jpg'); /* Path to the image */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 50px;
-    color: #BA8E23; /* Golden font color for readability */
+    color: #BA8E23;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    /* Make the background semi-transparent */
+    background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
 }
 
 #home-content h2 {
