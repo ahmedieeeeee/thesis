@@ -62,7 +62,7 @@ footer p {
 }
 
 #home-content {
-    background-image: url('../images/food.jpg'); /* Path to the image */
+    background-image: url('food.jpg'); /* Path to the image */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
