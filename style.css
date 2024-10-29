@@ -16,7 +16,7 @@ header, footer {
 }
 
 header .logo {
-    width: 250px;  /* Adjust size if needed */
+    width: 150px;  /* Adjust size if needed */
     height: auto;
     position: absolute;
     left: 40px;
