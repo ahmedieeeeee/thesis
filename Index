@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodDay - Homepage</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to FoodDay Festival</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login/Register</a>
+            <a href="tickets.html">Buy Tickets</a>
+            <a href="vendor-registration.html">Vendor Registration</a>
+            <a href="vendor-info.html">Vendor Info</a>
+            <a href="media.html">Media</a>
+        </nav>
+    </header>
+    <section id="home-content">
+        <h2>About FoodDay</h2>
+        <p>Debrecen’s largest food festival showcasing diverse cuisines and cultural performances!</p>
+        <button onclick="window.location.href='tickets.html'">Buy Tickets</button>
+    </section>
+</body>
+</html>
