@@ -4,35 +4,62 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333;
+    color: #BA8E23; /* Updated font color */
 }
 
-header {
-    background-color: #6B9080;
-    color: white;
+header, footer {
+    background-color: #276221; /* Dark green color for header and footer */
+    color: #BA8E23; /* Golden font color */
     padding: 20px 0;
     text-align: center;
     position: relative;
 }
 
 header .logo {
-    width: 450px;  /* Adjust this to your desired width */
-    height: auto;  /* This keeps the aspect ratio consistent */
+    width: 450px;  /* Adjust size if needed */
+    height: auto;
     position: absolute;
     left: 40px;
-    top: 40px;
+    top: 60px;
 }
 
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+nav a {
+    color: #BA8E23; /* Golden color for links */
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #A4C3B2; /* Lighter green for hover effect */
+    border-radius: 4px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #276221;
+    padding: 10px;
+    color: #BA8E23;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
 }
 
 /* Homepage Background */
 #home-content {
-    background-image: url('food.jpg'); /* Path to the image */
-    background-size: cover; /* Cover the entire section */
-    background-repeat: no-repeat; /* Prevent background from repeating */
-    background-position: center; /* Center the background image */
+    background-image: url('../images/food.jpg'); /* Path to the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 50px;
-    color: white; /* Text color for readability */
+    color: #BA8E23; /* Golden font color for readability */
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -48,9 +75,10 @@ header .logo {
     margin-bottom: 20px;
 }
 
+/* Button Styles */
 .cta-button {
-    background-color: #ffffff;
-    color: #6B9080;
+    background-color: #BA8E23; /* Golden button color */
+    color: #ffffff; /* White text for contrast */
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -60,86 +88,6 @@ header .logo {
 }
 
 .cta-button:hover {
-    background-color: #A4C3B2;
+    background-color: #A4C3B2; /* Light green for hover */
     color: white;
-}
-
-
-header h1 {
-    font-size: 1.8em;
-    margin: 0;
-}
-
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    padding: 10px;
-}
-
-nav a:hover {
-    background-color: #A4C3B2;
-    border-radius: 4px;
-}
-
-section {
-    padding: 30px;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-/* Modern Button Styles */
-.cta-button {
-    background-color: #A4C3B2;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #88A091;
-}
-
-/* Ticketing Page and Payment Styles */
-.payment-options {
-    display: flex;
-    gap: 10px;
-    margin: 10px 0;
-}
-
-.card-logo {
-    width: 50px;
-    height: auto;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="password"],
-select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus,
-select:focus {
-    outline: none;
-    border-color: #A4C3B2;
-    box-shadow: 0 0 5px rgba(164, 195, 178, 0.5);
 }
